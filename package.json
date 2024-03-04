@@ -1,0 +1,21 @@
+{
+  "name": "backend-proj-car",
+  "version": "1.0.0",
+  "description": "Servidor backend para projeto da prefeitura de caraguatatuba envolvendo o uso de aplicativo com leitura de QR-code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Bryan Machado Soares dos Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^5.10.2"
+  }
+}
